@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://twitter.com/haquetoni" target="blank"><img src="https://img.shields.io/twitter/follow/haquetoni?logo=twitter&style=for-the-badge" alt="haquetoni" /></a> </p>
 
-- 🔭 I’m currently working on [@kubedb](https://github.com/kubedb/)
+# - 🔭 I’m currently working on [@kubedb](https://github.com/kubedb/)
 
 - 🌱 I’m currently learning **Golang,Docker,Kubernetes**
 
