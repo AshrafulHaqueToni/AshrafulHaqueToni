@@ -6,7 +6,7 @@
 <p align="left"> <a href="https://twitter.com/haquetoni" target="blank"><img src="https://img.shields.io/twitter/follow/haquetoni?logo=twitter&style=for-the-badge" alt="haquetoni" /></a> </p>
 
 
-- 🌱 I’m currently learning **Golang,Docker,Kubernetes**
+- 🌱 I’m currently working with **Golang,Docker,Kubernetes**
 
 - 📫 How to reach me **ashrafulhaquetoni@gmail.com**
 
