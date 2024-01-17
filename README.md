@@ -6,8 +6,16 @@
 <p align="left"> <a href="https://twitter.com/haquetoni" target="blank"><img src="https://img.shields.io/twitter/follow/haquetoni?logo=twitter&style=for-the-badge" alt="haquetoni" /></a> </p>
 
 
-- 🌱 I’m currently working with **Golang,Docker,Kubernetes**
+- 🌱 Learning **Golang,Docker,Kubernetes, Prometheus, Grafana**
+  
+- 💼 Writing Custom Controller for my assigned project at <a href="https://appscode.com/">Appscode Inc.</a> using Go language, Kubernetes, Docker, etc.
 
+- 💼 Handful experience with API, TLS, MTLS, and basic system design.
+
+- 💡 Solving programming problems at <a href="https://codeforces.com/profile/ash_98"> Codeforces</a>, <a href="https://www.codechef.com/users/ash_9t_eight"> Codechef</a>
+
+- 💡 Participated in various Onsite contests like ACM ICPC Onsites, IUPC's.
+  
 - 📫 How to reach me **ashrafulhaquetoni@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
