@@ -320,7 +320,7 @@ Signed-off-by: Ashraful Haque Tani &lt;ashraf@appscode.com&gt;
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
                             <span class="code">2104843f</span>
-                            <span class="code">scripts/run_innodb.sh</span>
+                            <span class="code">scripts/run.sh</span>
                             <span class="code">
                                 <span class="snippet additions">++0</span>
                                 <span class="snippet deletions">--1</span>
@@ -331,14 +331,14 @@ Signed-off-by: Ashraful Haque Tani &lt;ashraf@appscode.com&gt;
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -38,7 +38,6 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">cat &gt;&gt;/etc/mysql/my.cnf &lt;&lt;EOL<br /></span><span class="token prefix unchanged">·</span><span class="token line">!includedir /etc/mysql/conf.d/<br /></span><span class="token prefix unchanged">·</span><span class="token line">[mysqld]<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">mysql_native_password=ON<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">#loose-group_replication_ip_whitelist = "${whitelist}"<br /></span><span class="token prefix unchanged">·</span><span class="token line">loose-group_replication_ip_allowlist = "${whitelist}"<br /></span><span class="token prefix unchanged">·</span><span class="token line">EOL</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -123,7 +123,6 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">if [[ "$PRIMARY_TYPE" == "Multi-Primary" ]]; then<br /></span><span class="token prefix unchanged">·</span><span class="token line">cat &gt;&gt;/etc/mysql/group-replication.conf.d/group.cnf &lt;&lt;EOL<br /></span><span class="token prefix unchanged">·</span><span class="token line">[mysqld]<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">mysql_native_password=ON<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">disabled_storage_engines="MyISAM,BLACKHOLE,FEDERATED,ARCHIVE,MEMORY"<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line"># General replication settings</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 20 Dec 2024, 10:26:51 (timezone Asia/Dhaka) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 20 Dec 2024, 11:21:51 (timezone Asia/Dhaka) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
